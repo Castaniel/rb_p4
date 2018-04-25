@@ -99,7 +99,48 @@ require 'awesome_print'
 # 	  end
 # 	end	
 # end
-# Не вийшло щось без зайвого if
-# Ще дороблю останні завдання
 
+# def fib(n)
+#   n.times.each_with_object([0,1]) { |num, obj| obj << obj[-2] + obj[-1] }
+# end
+# ap fib(10)
+
+# a = [1, 2, 3, 4]
+
+# public
+# def maximum
+# 	max
+# end
+# def minimum
+# 	min
+# end
+# ap a.maximum
+# ap a.minimum
 # ap "test"
+
+# def bla
+#   yield ap 'ruby' if block_given?
+# end
+# bla { |x| x }
+
+# def bla
+#   5.times { yield if block_given? }
+# end
+
+# bla { ap 'Ruby' }
+# def bla(n)
+# 	(1..n).inject(:*) || 1 
+# end
+
+# ap bla(3)
+
+# def bla(x)
+# 	blu 'test'
+# rescue => ex
+# 	ap "Wrong invocation"
+# else
+# 	ap "It's ok"
+# ensure
+# 	ap "Something may go wrong if you're not paying enough attention"
+# end
+# bla(2)
